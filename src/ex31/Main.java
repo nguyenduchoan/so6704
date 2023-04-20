@@ -4,21 +4,10 @@ import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) {
-//		Scanner sc = new Scanner(System.in);
-//		System.out.println("Mời bạn nhập số nguyên N: ");
-//		int n = sc.nextInt();
-//		int tong = 0;
 		int[] arr = {1,9,10};
-//		for(int i = 0; i <= n; i++) {
-//			if(i%2==0) {
-//				if(i == 6) return;
-//				tong += i;
-//			}
-//		}
 		for(int i : arr) {
 			System.out.println("Đây là vòng lặp thứ: " + i);
 		}
-//		System.out.println("Tổng các số chẵn từ 0 đến " + n + " là: " + tong);
 	}
 	
 	public static void nhapMaSV() {
